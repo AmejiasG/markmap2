@@ -1,0 +1,99 @@
+:root,
+[data-bs-theme=light] {
+  --bs-blue: #95c2d3;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Comfortaa", sans-serif;
+    font-style: normal;
+    color: rgb(122, 155, 183);
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    color:rgb(9, 66, 117);
+    background-color: #feffff;
+    border-radius: 74px;
+}
+
+h2, p{
+    color: 	#FFF0F5;
+}
+
+
+.primerBg{
+    background-image: url("../img/fotogatito.png");
+    background-color: rgb(162, 227, 245);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.segundoBg{
+    background-color: #80b1bf;
+}
+
+.fotogato{
+    background-image: url("../img/cantinfla.jpg");
+    background-color: var(--bs-blue);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.fotogato2 {
+    background-image: url("../img/pxfuel.jpg");
+    background-color: var(--bs-blue);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fototaza {
+    background-image: url("../img/taza.jpeg");
+    background-color: var(--bs-blue);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+.tercerBg{
+    background-color: var(--bs-blue);
+    position: relative;
+}
+
+.fotoGato{
+    border-radius: 20px;
+}
+
+.taza {
+    max-width: 300px;
+    border-radius: 40px;
+}
+
+.hidden {
+    transform: scale(0.8);
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+
+.mostrar {
+    transform: scale(1);
+    opacity: 1;
+}
